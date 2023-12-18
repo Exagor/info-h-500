@@ -1,7 +1,9 @@
 # INFO-H-500 Image acquisition and processing
 
 ![intro](fig/title.jpg){align=right}
+
 ## Objectives
+
 After following this course one shouldbe able to understand different kind of images,
 to analyse and decompose an image recognition problem into some basic steps,
 to propose features to extract from the raw data for a given problem,
@@ -14,9 +16,10 @@ More specificaly:
 * Apply basic filtering and denoising
 * Be able to segment an image using some of the classical methods
 
-## Course content    	
+## Course content
+
 * Introduction: examples of application of the image processing from several domains, medical applications, industry, HCI...
-* Human vision fundamentals 
+* Human vision fundamentals
 * Definitions : the image processing chain
 * Quantification : spatial, spectral and intensity color representation different acquisition modalities sensor,sensor+source,...
 * Acquisition devices : CCD, CMOS, time-of-flight (TOF)
@@ -24,7 +27,7 @@ More specificaly:
 * Pre-processing - Histogram based image enhancement
 * Linear filtering Fourier transform
 * Fourier domain processing : e.g. interlaced image correction pattern matching
-* Image restoration 
+* Image restoration
 * Morphomatematics definitions : ensemble, structuring element
 * Basic operators : erosion, dilation, duality combined operators : opening, closing
 * Gray-level morphology watershed transform
@@ -40,9 +43,6 @@ More specificaly:
 In parallel to the lectures, a serie of labs are is organized. 
 The student are invited to reuse lecture material given as Jupyter Python Notebooks during the laboratory.
 
-[go to the LAB page](labs.md) 
-
-
-
+[go to the LAB page](labs.md)
 
 <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a>

@@ -93,7 +93,7 @@ Because the conversion is done separately for each pixels, no charge shifting is
     
 <sup>[wikimedia commons](https://commons.wikimedia.org/wiki/File:CMOS_Image_Sensor_Mechanism_Illustration.svg)<sup>
 
-###CMOS vs CCD
+### CMOS vs CCD
 
 | feature             | CCD             | CMOS     |
 |---------------------|-----------------|----------|
@@ -233,9 +233,9 @@ Continuous wave demodulation
 * retrieve phase shift by demodulation of the received signal
 * demodulation by cross-correlation of the received signal with the emitted signal
 * emitted signal is
-$$g(t) = \cos(\omega t)$$ with $\omega$ the modulation frequency
+$g(t) = \cos(\omega t)$ with $\omega$ the modulation frequency
 * received signal after the return trip to the scene surface:
-$$s(t) = b + a \cos(\omega t +\phi)$$ where $a$ is an unknown attenuation, $\phi$ the phase shift **i.e. a value proportional to the scene distance** and $b$ an unknown acquisition noise (neglected here).
+$s(t) = b + a \cos(\omega t +\phi)$ where $a$ is an unknown attenuation, $\phi$ the phase shift **i.e. a value proportional to the scene distance** and $b$ an unknown acquisition noise (neglected here).
 
 
 ![png](output_61_0.png)
@@ -243,12 +243,12 @@ $$s(t) = b + a \cos(\omega t +\phi)$$ where $a$ is an unknown attenuation, $\phi
 
 
 * cross correlation of both emitted and received signal becomes:
-$$ d(\tau) = s * g = \int_{-\inf}^{+\inf} s(t).g(t+\tau) dt$$ with $\tau$ an internal offset
+$ d(\tau) = s * g = \int_{-\inf}^{+\inf} s(t).g(t+\tau) dt$ with $\tau$ an internal offset
 
-$$ d(\tau) = \frac a 2 \cos(\omega t + \phi) + b $$
+$ d(\tau) = \frac a 2 \cos(\omega t + \phi) + b $
 
 * sample $d(\tau)$ at 4 distinct moments (phase offsets):
-$$A_i = d(i.\frac \pi 2)  \text{ with } i = 0,\dots, 3$$
+$A_i = d(i.\frac \pi 2)  \text{ with } i = 0,\dots, 3$
 
 
 ![png](output_64_0.png)
@@ -256,11 +256,11 @@ $$A_i = d(i.\frac \pi 2)  \text{ with } i = 0,\dots, 3$$
 
 
 * phase and attenuation are then:
-$$ \phi = \arg \tan(\frac{A_3-A_1}{A_0-A_2}) $$
+$ \phi = \arg \tan(\frac{A_3-A_1}{A_0-A_2}) $
 and
-$$ a = \frac 1 2 \sqrt{(A_3-A_1)^2+(A_0-A_2)^2}$$
+$ a = \frac 1 2 \sqrt{(A_3-A_1)^2+(A_0-A_2)^2}$
 * scene distance is then:
-$$dist = \frac{c}{4.\pi.\omega} \phi$$ where $c$ is the speed of light.
+$dist = \frac{c}{4.\pi.\omega} \phi$ where $c$ is the speed of light.
 
 What a depth image looks like ?
 
@@ -293,5 +293,3 @@ other example: MRI image reconstruction
 Image can also be the result of the grouping of a huge number of localized data, for example, one can imagine a network of temperature sensors spread over a complete contry, then the temperature measurements can be grouped on a 2D map (and interpolated to have a complete coverage).
 
 Visualized data can be from various nature, the common aspect is that these data are placed in a geometric space (usually 2D or 3D). 
-
-

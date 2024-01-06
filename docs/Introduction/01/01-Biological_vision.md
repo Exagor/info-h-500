@@ -6,7 +6,7 @@ Evolution has produced a large variety of light sensors among living organisms. 
 
 <sup>[Wikimedia Commons](https://en.wikipedia.org/wiki/Evolution_of_the_eye#/media/File:Diagram_of_eye_evolution.svg)<sup>
 
-Eye, can be compounded, like insect vision, or non-compound (simple eyes) when a single lens-system focus lignt on all the sensible cells.
+Eye, can be compounded, like insect vision, or non-compound (simple eyes) when a single lens-system focus light on all the sensible cells.
 
 ![png](output_6_0.png)
 
@@ -37,7 +37,7 @@ Human vision rely on two principal organs: the eyes, and the brain.
 
 ## Sensitivity
 
-Eye sensitivity is due to two types of cells: rods and cones. Rods cells are higly sensitive to brightness, there spectrum sensitivity is roughly situated in the green part of the visible spectrum (see below). Rods are spread all over the retina excepted in the fovea and of course in the blind spot.
+Eye sensitivity is due to two types of cells: rods and cones. Rods cells are highly sensitive to brightness, there spectrum sensitivity is roughly situated in the green part of the visible spectrum (see below). Rods are spread all over the retina excepted in the fovea and of course in the blind spot.
 
 Cones are cell responsible for the color discrimination, the highest cones concentration is located inside the fovea (see figure).
 
@@ -124,12 +124,9 @@ Other species developped a vision in a shifted spectrum (e.g. bees can see some 
     allowfullscreen
 ></iframe>
 
-
-
-
 Because of the, so to speak, slow speed of firing of the chemico-physical processes involved in the vision, a fast change in light intensity may be impossible to be detected. This is why, as illustrated above, a fast fast rotating stripe of leds can give the illusion of being a 2D disk (rem. actually the video present already a remanent object, due to the camera limited acquisition speed and frame integration time...).
 
-#Vision limitations and optical illusions
+# Vision limitations and optical illusions
 
 Here are some classical optical illusions that can trick your eye, maybe machine vision can be used here to avoid some troubles...
 

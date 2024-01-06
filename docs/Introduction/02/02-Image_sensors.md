@@ -2,9 +2,9 @@
 
 ## Passive vs active imaging
 
-* the object is the source of photon (SPECT, stars,...)
-* the object reflects/react to light given by a external source (flash, fluorescence)
-* the object is traversed by the ligh and diffuses/asborbes it (X-ray)
+* The object is the source of photon (SPECT, stars,...)
+* The object reflects/react to light given by a external source (flash, fluorescence)
+* The object is traversed by the ligh and diffuses/asborbes it (X-ray)
 
 ![png](output_3_0.png)
 
